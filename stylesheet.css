@@ -1,0 +1,63 @@
+* {
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+div {
+    display: inline-block;
+    float: top;
+}
+
+table {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid black;
+}
+
+td {
+    width:  50px;
+    height: 36px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.prev-arrow {
+    text-align: left;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.month-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.next-arrow {
+    text-align: right;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.prev-month-date {
+    color: darkgray;
+}
+
+.next-month-date {
+    color: darkgray;
+}
+
+.curr-month-date {
+    color: cornflowerblue;
+}
+
+.highlight {
+    font-weight: bold;
+    color: blue;
+    background-color: lightblue;
+}
+
+.other-content {
+    display: none;
+}
